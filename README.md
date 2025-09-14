@@ -7,7 +7,7 @@ I used an Arduino Nano connected to my M5Stack StickC Plus 2 running Bruce 1.11 
 
 # How to do it yourself
 First, Set the IR TX pin to a GPIO pin that is compatible with your device, in this case, I will refer to it as "G26".
-Next, Upload the code in the file "arduino_code.cpp" to your Arduino.
+Next, Upload the code in the file "arduino_code.ino" to your Arduino.
 Then, connect G26 to a pin on your Arduino, it is recommended to use D3 as that is what the code is written for.
 Then, connect GND on your device running Bruce to GND on your Arduino.
 Next, open a serial console (https://www.serialterminal.com/ is recommended) with the Baud 115200. The console should be connected to your Arduino.
